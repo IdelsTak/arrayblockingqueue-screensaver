@@ -56,7 +56,7 @@ public class Producer extends Task<Void> {
                     var shape = new Rectangle(xCoordinate, yCoordinate, width, height);
 
                     shape.setArcWidth(20);
-                    shape.setArcHeight(random.nextInt(20));
+                    shape.setArcHeight(20);
 
                     var hue = random.nextDouble() * 360.0;
                     var saturation = random.nextDouble();
